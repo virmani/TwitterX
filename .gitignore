@@ -11,6 +11,7 @@
 # generated files
 bin/
 gen/
+app/*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -18,3 +19,7 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+*/.idea/workspace.xml
+
+# Secrets
+app/TwitterX/src/main/res/values/secrets.xml
